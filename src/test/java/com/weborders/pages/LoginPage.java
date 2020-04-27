@@ -6,6 +6,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 public class LoginPage {
+String nn="Hello ";
+
 
     @FindBy(id = "ctl00_MainContent_username")
     private WebElement userName;
